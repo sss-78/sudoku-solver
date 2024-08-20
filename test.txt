@@ -1,0 +1,15 @@
+if (grid[0] == sample_grid_solved[0] and \
+                grid[1] == sample_grid_solved[1] and \
+                grid[2] == sample_grid_solved[2] and \
+                grid[3] == sample_grid_solved[3] and \
+                grid[4] == sample_grid_solved[4] and \
+                grid[5] == sample_grid_solved[5] and \
+                grid[6] == sample_grid_solved[6] and \
+                grid[7] == sample_grid_solved[7] and \
+                grid[8][0:4] == sample_grid_solved[8][0:4]):
+                print('found', '\n')
+                print_grid(grid)
+                exit(0)
+
+
+[[5,3,None,None,7,None,None,None,None],[6,None,None,1,9,5,None,None,None],[None,9,8,None,None,None,None,6,None],[8,None,None,None,6,None,None,None,3],[4,None,None,8,None,3,None,None,1],[7,None,None,None,2,None,None,None,6],[None,6,None,None,None,None,2,8,None],[None,None,None,4,1,9,None,None,5],[None,None,None,None,8,None,None,7,9]]
